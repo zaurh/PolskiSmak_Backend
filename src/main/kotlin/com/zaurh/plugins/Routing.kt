@@ -15,5 +15,8 @@ fun Application.configureRouting() {
         getSpecificMealRoute()
         getRandomQuoteRoute()
         staticResources("/static", "static")
+//        static{
+//            resources("static")
+//        }
     }
 }

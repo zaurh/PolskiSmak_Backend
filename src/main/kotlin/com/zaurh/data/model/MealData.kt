@@ -31,25 +31,25 @@ val meals = listOf(
         listOf(
             Ingredients(
                 name = "Sauerkraut Filling",
-                imageUrl = "$BASE_URL/meals/sauerkraut.png",
+                imageUrl = "$BASE_URL/static/meals/sauerkraut.png",
                 recipe =
                 listOf(
                     IngredientRecipe(
                         name = "Butter",
-                        imageUrl = "$BASE_URL/meals/butter.png",
+                        imageUrl = "$BASE_URL/static/meals/butter.png",
                         quantity = "2",
                         unit = IngredientUnit.TABLESPOONS
                     ),
                     IngredientRecipe(
                         name = "Onion",
-                        imageUrl = "$BASE_URL/meals/onion.png",
+                        imageUrl = "$BASE_URL/static/meals/onion.png",
                         quantity = "1/3",
                         unit = IngredientUnit.CUPS,
                         optional = "Chopped"
                     ),
                     IngredientRecipe(
                         name = "Sauerkraut",
-                        imageUrl = "$BASE_URL/meals/sauerkraut.png",
+                        imageUrl = "$BASE_URL/static/meals/sauerkraut.png",
                         quantity = "1/2",
                         unit = IngredientUnit.CUPS,
                         optional = "Drained and minced"
@@ -59,38 +59,38 @@ val meals = listOf(
             ),
             Ingredients(
                 name = "Potato Filling",
-                imageUrl = "$BASE_URL/meals/potato_filling.png",
+                imageUrl = "$BASE_URL/static/meals/potato_filling.png",
                 recipe =
                 listOf(
                     IngredientRecipe(
                         name = "Butter",
-                        imageUrl = "$BASE_URL/meals/butter.png",
+                        imageUrl = "$BASE_URL/static/meals/butter.png",
                         quantity = "3",
                         unit = IngredientUnit.TABLESPOONS
                     ),
                     IngredientRecipe(
                         name = "Onion",
-                        imageUrl = "$BASE_URL/meals/onion.png",
+                        imageUrl = "$BASE_URL/static/meals/onion.png",
                         quantity = "1/2",
                         unit = IngredientUnit.CUPS,
                         optional = "Chopped"
                     ),
                     IngredientRecipe(
                         name = "Potato",
-                        imageUrl = "$BASE_URL/meals/potato.png",
+                        imageUrl = "$BASE_URL/static/meals/potato.png",
                         quantity = "2",
                         unit = IngredientUnit.CUPS,
                         optional = "Cold mashed"
                     ),
                     IngredientRecipe(
                         name = "Salt",
-                        imageUrl = "$BASE_URL/meals/salt.png",
+                        imageUrl = "$BASE_URL/static/meals/salt.png",
                         quantity = "1",
                         unit = IngredientUnit.TEASPOONS
                     ),
                     IngredientRecipe(
                         name = "White pepper",
-                        imageUrl = "$BASE_URL/meals/white_pepper.png",
+                        imageUrl = "$BASE_URL/static/meals/white_pepper.png",
                         quantity = "1",
                         unit = IngredientUnit.TEASPOONS
                     )
@@ -98,37 +98,37 @@ val meals = listOf(
             ),
             Ingredients(
                 name = "Dough",
-                imageUrl = "$BASE_URL/meals/dough.png",
+                imageUrl = "$BASE_URL/static/meals/dough.png",
                 recipe =
                 listOf(
                     IngredientRecipe(
                         name = "Sour cream",
-                        imageUrl = "$BASE_URL/meals/sour_cream.png",
+                        imageUrl = "$BASE_URL/static/meals/sour_cream.png",
                         quantity = "200",
                         unit = IngredientUnit.GRAMS
                     ),
                     IngredientRecipe(
                         name = "Egg",
-                        imageUrl = "$BASE_URL/meals/egg.png",
+                        imageUrl = "$BASE_URL/static/meals/egg.png",
                         quantity = "3",
                         unit = IngredientUnit.PIECES,
                         optional = "Large"
                     ),
                     IngredientRecipe(
                         name = "Flour",
-                        imageUrl = "$BASE_URL/meals/flour.png",
+                        imageUrl = "$BASE_URL/static/meals/flour.png",
                         quantity = "3",
                         unit = IngredientUnit.CUPS
                     ),
                     IngredientRecipe(
                         name = "Baking powder",
-                        imageUrl = "$BASE_URL/meals/baking_powder.png",
+                        imageUrl = "$BASE_URL/static/meals/baking_powder.png",
                         quantity = "1",
                         unit = IngredientUnit.TABLESPOONS
                     ),
                     IngredientRecipe(
                         name = "Salt",
-                        imageUrl = "$BASE_URL/meals/salt.png",
+                        imageUrl = "$BASE_URL/static/meals/salt.png",
                         quantity = "1/4",
                         unit = IngredientUnit.TEASPOONS
                     )
@@ -162,7 +162,7 @@ val meals = listOf(
             )
         ),
         origin = "Poland",
-        imageUrl = "$BASE_URL/meals/pierogi.png",
+        imageUrl = "$BASE_URL/static/meals/pierogi.png",
         prepTimeMinutes = 45,
         cookTimeMinutes = 15,
         difficulty = DifficultyLevel.MODERATE,
@@ -179,57 +179,57 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Stuffed cabbage rolls",
-                imageUrl = "$BASE_URL/meals/stuffed_cabbage_rolls.png",
+                imageUrl = "$BASE_URL/static/meals/stuffed_cabbage_rolls.png",
                 recipe = listOf(
                     IngredientRecipe(
                         name = "Cabbage",
-                        imageUrl = "$BASE_URL/meals/cabbage.png",
+                        imageUrl = "$BASE_URL/static/meals/cabbage.png",
                         unit = IngredientUnit.PIECES,
                         quantity = "1",
                         optional = "Or Savoy Cabbage"
                     ),
                     IngredientRecipe(
                         name = "Ground pork",
-                        imageUrl = "$BASE_URL/meals/ground_pork.png",
+                        imageUrl = "$BASE_URL/static/meals/ground_pork.png",
                         unit = IngredientUnit.GRAMS,
                         quantity = "800",
                     ),
                     IngredientRecipe(
                         name = "Onion",
-                        imageUrl = "$BASE_URL/meals/onion.png",
+                        imageUrl = "$BASE_URL/static/meals/onion.png",
                         unit = IngredientUnit.PIECES,
                         quantity = "1",
                         optional = "Yellow or white"
                     ),
                     IngredientRecipe(
                         name = "Neutral oil",
-                        imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                        imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                         unit = IngredientUnit.TABLESPOONS,
                         quantity = "2",
                         optional = "e.g: Canola"
                     ),
                     IngredientRecipe(
                         name = "Garlic",
-                        imageUrl = "$BASE_URL/meals/garlic.png",
+                        imageUrl = "$BASE_URL/static/meals/garlic.png",
                         unit = IngredientUnit.PIECES,
                         quantity = "3",
                     ),
                     IngredientRecipe(
                         name = "Rice",
-                        imageUrl = "$BASE_URL/meals/rice.png",
+                        imageUrl = "$BASE_URL/static/meals/rice.png",
                         unit = IngredientUnit.GRAMS,
                         quantity = "100",
                         optional = "Cooked"
                     ),
                     IngredientRecipe(
                         name = "Chicken stock",
-                        imageUrl = "$BASE_URL/meals/chicken_stock.png",
+                        imageUrl = "$BASE_URL/static/meals/chicken_stock.png",
                         unit = IngredientUnit.LITERS,
                         quantity = "1",
                     ),
                     IngredientRecipe(
                         name = "Ground black pepper",
-                        imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                        imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                         unit = IngredientUnit.TEASPOONS,
                         quantity = "1",
                         optional = "Add it how much you like it."
@@ -238,36 +238,36 @@ val meals = listOf(
             ),
             Ingredients(
                 name = "Tomato sauce",
-                imageUrl = "$BASE_URL/meals/tomato_sauce.png",
+                imageUrl = "$BASE_URL/static/meals/tomato_sauce.png",
                 recipe = listOf(
                     IngredientRecipe(
                         name = "Butter",
-                        imageUrl = "$BASE_URL/meals/butter.png",
+                        imageUrl = "$BASE_URL/static/meals/butter.png",
                         unit = IngredientUnit.GRAMS,
                         quantity = "30"
                     ),
                     IngredientRecipe(
                         name = "Flour",
-                        imageUrl = "$BASE_URL/meals/flour.png",
+                        imageUrl = "$BASE_URL/static/meals/flour.png",
                         unit = IngredientUnit.TABLESPOONS,
                         quantity = "1"
                     ),
                     IngredientRecipe(
                         name = "Gołąbki juices",
-                        imageUrl = "$BASE_URL/meals/golabki.png",
+                        imageUrl = "$BASE_URL/static/meals/golabki.png",
                         unit = IngredientUnit.CUPS,
                         quantity = "1",
                         optional = "Remaining from cooking Gołąbki"
                     ),
                     IngredientRecipe(
                         name = "Tomato passata",
-                        imageUrl = "$BASE_URL/meals/tomato_passata.png",
+                        imageUrl = "$BASE_URL/static/meals/tomato_passata.png",
                         unit = IngredientUnit.CUPS,
                         quantity = "2"
                     ),
                     IngredientRecipe(
                         name = "Tomato paste",
-                        imageUrl = "$BASE_URL/meals/tomato_paste.png",
+                        imageUrl = "$BASE_URL/static/meals/tomato_paste.png",
                         unit = IngredientUnit.TABLESPOONS,
                         quantity = "1"
                     )
@@ -314,7 +314,7 @@ val meals = listOf(
                 step = "Pour in 2 cups of tomato passata/purée and add a tablespoon of tomato paste. Bring to a boil yet again, then reduce the heat to a minimum. Season with salt and ground pepper. If the tomatoes are too acidic, add a pinch of sugar to balance the flavours. Continue cooking until you reach a desired thickness."
             ),
         ),
-        imageUrl = "$BASE_URL/meals/golabki.png",
+        imageUrl = "$BASE_URL/static/meals/golabki.png",
         prepTimeMinutes = 15,
         cookTimeMinutes = 60,
         difficulty = DifficultyLevel.HARD,
@@ -332,90 +332,90 @@ val meals = listOf(
             Ingredients(
                 name = "Sauerkraut",
                 unit = IngredientUnit.GRAMS,
-                imageUrl = "$BASE_URL/meals/sauerkraut.png",
+                imageUrl = "$BASE_URL/static/meals/sauerkraut.png",
                 quantity = "500"
             ),
             Ingredients(
                 name = "Cabbage",
                 unit = IngredientUnit.GRAMS,
-                imageUrl = "$BASE_URL/meals/cabbage.png",
+                imageUrl = "$BASE_URL/static/meals/cabbage.png",
                 quantity = "300",
                 optional = "White"
             ),
             Ingredients(
                 name = "Chicken thigh",
                 unit = IngredientUnit.PIECES,
-                imageUrl = "$BASE_URL/meals/chicken_thigh.png",
+                imageUrl = "$BASE_URL/static/meals/chicken_thigh.png",
                 quantity = "4",
                 optional = "Or other meat."
             ),
             Ingredients(
                 name = "Kielbasa",
-                imageUrl = "$BASE_URL/meals/kielbasa.png",
+                imageUrl = "$BASE_URL/static/meals/kielbasa.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "400"
             ),
             Ingredients(
                 name = "Mushroom",
-                imageUrl = "$BASE_URL/meals/dried_porcini_mushroom.png",
+                imageUrl = "$BASE_URL/static/meals/dried_porcini_mushroom.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "7",
                 optional = "Dried porcini"
             ),
             Ingredients(
                 name = "Prunes",
-                imageUrl = "$BASE_URL/meals/prunes.png",
+                imageUrl = "$BASE_URL/static/meals/prunes.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "8",
                 optional = "You can add more."
             ),
             Ingredients(
                 name = "Onion",
-                imageUrl = "$BASE_URL/meals/onion.png",
+                imageUrl = "$BASE_URL/static/meals/onion.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
                 optional = "Large"
             ),
             Ingredients(
                 name = "Caraway seeds",
-                imageUrl = "$BASE_URL/meals/caraway_seeds.png",
+                imageUrl = "$BASE_URL/static/meals/caraway_seeds.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1/3"
             ),
             Ingredients(
                 name = "Dried marjoram",
-                imageUrl = "$BASE_URL/meals/dried_marjoram.png",
+                imageUrl = "$BASE_URL/static/meals/dried_marjoram.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1/3"
             ),
             Ingredients(
                 name = "Paprika",
-                imageUrl = "$BASE_URL/meals/paprika.png",
+                imageUrl = "$BASE_URL/static/meals/paprika.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1/3"
             ),
             Ingredients(
                 name = "Bay leaf",
-                imageUrl = "$BASE_URL/meals/bay_leaf.png",
+                imageUrl = "$BASE_URL/static/meals/bay_leaf.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Tomato puree",
-                imageUrl = "$BASE_URL/meals/tomato_sauce.png",
+                imageUrl = "$BASE_URL/static/meals/tomato_sauce.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1/2"
             ),
             Ingredients(
                 name = "Olive oil",
-                imageUrl = "$BASE_URL/meals/olive_oil.png",
+                imageUrl = "$BASE_URL/static/meals/olive_oil.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "5",
                 optional = "Or vegetable oil"
             ),
             Ingredients(
                 name = "Water",
-                imageUrl = "$BASE_URL/meals/water.png",
+                imageUrl = "$BASE_URL/static/meals/water.png",
                 unit = IngredientUnit.MILLILITERS,
                 quantity = "400",
                 optional = "300-500ml water."
@@ -444,7 +444,7 @@ val meals = listOf(
                 step = "Remove the chicken from the pot, separate the meat from the bone and put the meat pieces back into the pot. Serve with boiled/mashed potatoes or rye/pumpernickel bread."
             ),
         ),
-        imageUrl = "$BASE_URL/meals/bigos.png",
+        imageUrl = "$BASE_URL/static/meals/bigos.png",
         prepTimeMinutes = 45,
         cookTimeMinutes = 180,
         difficulty = DifficultyLevel.EASY,
@@ -460,36 +460,36 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Pork chops",
-                imageUrl = "$BASE_URL/meals/pork_chop.png",
+                imageUrl = "$BASE_URL/static/meals/pork_chop.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Ground black pepper",
-                imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                 quantity = "Add pepper to taste"
             ),
             Ingredients(
                 name = "Flour",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Bread crumb",
-                imageUrl = "$BASE_URL/meals/bread_crumb.png",
+                imageUrl = "$BASE_URL/static/meals/bread_crumb.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "5"
             ),
             Ingredients(
                 name = "Oil",
-                imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2",
                 optional = "Vegetable oil or olive oil."
@@ -514,7 +514,7 @@ val meals = listOf(
                 step = "Heat oil in a large skillet over medium-high heat. Add breaded chops; cook until golden brown, about 5 minutes per side.",
             )
         ),
-        imageUrl = "$BASE_URL/meals/kotlet_schabowy.png",
+        imageUrl = "$BASE_URL/static/meals/kotlet_schabowy.png",
         prepTimeMinutes = 10,
         cookTimeMinutes = 10,
         difficulty = DifficultyLevel.MODERATE,
@@ -530,57 +530,57 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Ground beef",
-                imageUrl = "$BASE_URL/meals/ground_beef.png",
+                imageUrl = "$BASE_URL/static/meals/ground_beef.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "600"
             ),
             Ingredients(
                 name = "Cracker crumb",
-                imageUrl = "$BASE_URL/meals/cracker_crumb.png",
+                imageUrl = "$BASE_URL/static/meals/cracker_crumb.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "2/3"
             ),
             Ingredients(
                 name = "Onion",
-                imageUrl = "$BASE_URL/meals/onion.png",
+                imageUrl = "$BASE_URL/static/meals/onion.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
                 optional = "Small"
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Milk",
-                imageUrl = "$BASE_URL/meals/milk.png",
+                imageUrl = "$BASE_URL/static/meals/milk.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Garlic",
-                imageUrl = "$BASE_URL/meals/garlic.png",
+                imageUrl = "$BASE_URL/static/meals/garlic.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
                 optional = "One clove garlic"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1/4"
             ),
             Ingredients(
                 name = "Ground black pepper",
-                imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/2"
             ),
             Ingredients(
                 name = "Shortening",
-                imageUrl = "$BASE_URL/meals/shortening.png",
+                imageUrl = "$BASE_URL/static/meals/shortening.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "1/2"
             ),
@@ -596,7 +596,7 @@ val meals = listOf(
                 step = "Heat vegetable shortening in a large skillet over medium-high heat. Sear patties until golden brown, about 2 minutes per side. Reduce heat to low and continue cooking, uncovered, until patties are no longer pink in the center, about 20 minutes more. Remove patties from skillet and drain on paper towels until ready to serve.",
             )
         ),
-        imageUrl = "$BASE_URL/meals/kotlet_mielony.png",
+        imageUrl = "$BASE_URL/static/meals/kotlet_mielony.png",
         prepTimeMinutes = 15,
         cookTimeMinutes = 25,
         difficulty = DifficultyLevel.EASY,
@@ -611,64 +611,64 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Beef",
-                imageUrl = "$BASE_URL/meals/beef.png",
+                imageUrl = "$BASE_URL/static/meals/beef.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "800"
             ),
             Ingredients(
                 name = "Onion",
-                imageUrl = "$BASE_URL/meals/onion.png",
+                imageUrl = "$BASE_URL/static/meals/onion.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Carrot",
-                imageUrl = "$BASE_URL/meals/carrot.png",
+                imageUrl = "$BASE_URL/static/meals/carrot.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "1",
             ),
             Ingredients(
                 name = "Red bell pepper",
-                imageUrl = "$BASE_URL/meals/red_bell_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/red_bell_pepper.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Mushroom",
-                imageUrl = "$BASE_URL/meals/mushroom.png",
+                imageUrl = "$BASE_URL/static/meals/mushroom.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Garlic",
-                imageUrl = "$BASE_URL/meals/garlic.png",
+                imageUrl = "$BASE_URL/static/meals/garlic.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "3",
                 optional = "3 cloves"
             ),
             Ingredients(
                 name = "Tomato paste",
-                imageUrl = "$BASE_URL/meals/tomato_paste.png",
+                imageUrl = "$BASE_URL/static/meals/tomato_paste.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2",
                 optional = "Add it how much you like."
             ),
             Ingredients(
                 name = "Ground black pepper",
-                imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2",
                 optional = "Add it how much you like."
             ),
             Ingredients(
                 name = "Oil",
-                imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2",
                 optional = "Add it how much you like"
@@ -705,7 +705,7 @@ val meals = listOf(
                 step = "Add to the veggies and meat and cook 1-2 minutes until thickened."
             ),
         ),
-        imageUrl = "$BASE_URL/meals/gulasz.png",
+        imageUrl = "$BASE_URL/static/meals/gulasz.png",
         prepTimeMinutes = 45,
         cookTimeMinutes = 120,
         difficulty = DifficultyLevel.HARD,
@@ -723,26 +723,26 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Potato",
-                imageUrl = "$BASE_URL/meals/potato.png",
+                imageUrl = "$BASE_URL/static/meals/potato.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "2",
                 optional = "Peeled and diced"
             ),
             Ingredients(
                 name = "Potato starch",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/2"
             )
@@ -800,7 +800,7 @@ val meals = listOf(
                 step = "Top with with whatever wonderful creation you’re using.",
             ),
         ),
-        imageUrl = "$BASE_URL/meals/kluski_slaskie.png",
+        imageUrl = "$BASE_URL/static/meals/kluski_slaskie.png",
         prepTimeMinutes = 20,
         cookTimeMinutes = 20,
         difficulty = DifficultyLevel.MODERATE,
@@ -816,39 +816,39 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Flour",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "500"
             ),
             Ingredients(
                 name = "Milk",
-                imageUrl = "$BASE_URL/meals/milk.png",
+                imageUrl = "$BASE_URL/static/meals/milk.png",
                 unit = IngredientUnit.MILLILITERS,
                 quantity = "300",
                 optional = "Warm"
             ),
             Ingredients(
                 name = "Dry yeast",
-                imageUrl = "$BASE_URL/meals/dry_yeast.png",
+                imageUrl = "$BASE_URL/static/meals/dry_yeast.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "8",
                 optional = "Or 20 grams."
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Sugar",
-                imageUrl = "$BASE_URL/meals/sugar.png",
+                imageUrl = "$BASE_URL/static/meals/sugar.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/2",
             )
@@ -872,7 +872,7 @@ val meals = listOf(
                 step = "When the dumplings grow up, steam them. To do this pour water (approx. 2 cm) into the pot, put a colander/sieve in it or use a steamer. You can grease the colander/sieve with oil so that the dough does not stick to it. When the water in the pot starts to boil, place the pyzy on the sieve and cover the pot. Cook the pyzy for about 10 minutes and done. Serve with gravy.",
             ),
         ),
-        imageUrl = "$BASE_URL/meals/pyzy.png",
+        imageUrl = "$BASE_URL/static/meals/pyzy.png",
         prepTimeMinutes = 30,
         cookTimeMinutes = 90,
         difficulty = DifficultyLevel.MODERATE,
@@ -888,57 +888,57 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Potato",
-                imageUrl = "$BASE_URL/meals/potato.png",
+                imageUrl = "$BASE_URL/static/meals/potato.png",
                 unit = IngredientUnit.KILOGRAMS,
                 quantity = "1.5"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Butter",
-                imageUrl = "$BASE_URL/meals/butter.png",
+                imageUrl = "$BASE_URL/static/meals/butter.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "5",
                 optional = "Soft or melted."
             ),
             Ingredients(
                 name = "Flour",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "400"
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Plum",
-                imageUrl = "$BASE_URL/meals/plum.png",
+                imageUrl = "$BASE_URL/static/meals/plum.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "30",
                 optional = "Smaller, ripe"
             ),
             Ingredients(
                 name = "Oil",
-                imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Bread crumb",
-                imageUrl = "$BASE_URL/meals/bread_crumb.png",
+                imageUrl = "$BASE_URL/static/meals/bread_crumb.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "400"
             ),
             Ingredients(
                 name = "Sugar",
-                imageUrl = "$BASE_URL/meals/sugar.png",
+                imageUrl = "$BASE_URL/static/meals/sugar.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "300"
             )
@@ -978,7 +978,7 @@ val meals = listOf(
                 step = "Consume warm. (Optionally serve with sour cream.)",
             )
         ),
-        imageUrl = "$BASE_URL/meals/knedle.png",
+        imageUrl = "$BASE_URL/static/meals/knedle.png",
         prepTimeMinutes = 20,
         cookTimeMinutes = 10,
         difficulty = DifficultyLevel.HARD,
@@ -995,44 +995,44 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Farmer's cheese",
-                imageUrl = "$BASE_URL/meals/farmers_cheese.png",
+                imageUrl = "$BASE_URL/static/meals/farmers_cheese.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "500",
                 optional = "It is also called twarog"
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "3"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/2"
             ),
             Ingredients(
                 name = "Flour",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "150"
             ),
             Ingredients(
                 name = "Butter",
-                imageUrl = "$BASE_URL/meals/butter.png",
+                imageUrl = "$BASE_URL/static/meals/butter.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "4"
             ),
             Ingredients(
                 name = "Bread crumb",
-                imageUrl = "$BASE_URL/meals/bread_crumb.png",
+                imageUrl = "$BASE_URL/static/meals/bread_crumb.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "4"
             ),
             Ingredients(
                 name = "Sugar",
-                imageUrl = "$BASE_URL/meals/sugar.png",
+                imageUrl = "$BASE_URL/static/meals/sugar.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/2"
             )
@@ -1064,7 +1064,7 @@ val meals = listOf(
                 step = "When the water starts boiling, turn the heat down and add about half of your batch. Lightly stir to prevent from sticking to the bottom. When dumplings start to float, boil on very low for about 2 min. Serve immediately, garnished with buttery bread crumbs and a sprinkle of sugar.",
             ),
         ),
-        imageUrl = "$BASE_URL/meals/leniwe.png",
+        imageUrl = "$BASE_URL/static/meals/leniwe.png",
         prepTimeMinutes = 10,
         cookTimeMinutes = 5,
         difficulty = DifficultyLevel.EASY,
@@ -1080,45 +1080,45 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Potato",
-                imageUrl = "$BASE_URL/meals/potato.png",
+                imageUrl = "$BASE_URL/static/meals/potato.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "3"
             ),
             Ingredients(
                 name = "Onion",
-                imageUrl = "$BASE_URL/meals/onion.png",
+                imageUrl = "$BASE_URL/static/meals/onion.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
                 optional = "Small."
             ),
             Ingredients(
                 name = "Egg",
-                imageUrl = "$BASE_URL/meals/egg.png",
+                imageUrl = "$BASE_URL/static/meals/egg.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1",
                 optional = "Small."
             ),
             Ingredients(
                 name = "Flour",
-                imageUrl = "$BASE_URL/meals/flour.png",
+                imageUrl = "$BASE_URL/static/meals/flour.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Pepper",
-                imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1/4"
             ),
             Ingredients(
                 name = "Oil",
-                imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "Canola oil for frying."
             ),
@@ -1168,7 +1168,7 @@ val meals = listOf(
             ),
 
             ),
-        imageUrl = "$BASE_URL/meals/placki_ziemniaczane.png",
+        imageUrl = "$BASE_URL/static/meals/placki_ziemniaczane.png",
         prepTimeMinutes = 10,
         cookTimeMinutes = 15,
         difficulty = DifficultyLevel.MODERATE,
@@ -1182,68 +1182,68 @@ val meals = listOf(
         ingredients = listOf(
             Ingredients(
                 name = "Pork knuckle",
-                imageUrl = "$BASE_URL/meals/golonka.png",
+                imageUrl = "$BASE_URL/static/meals/golonka.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "5",
                 optional = "5-6 pork knuckles."
             ),
             Ingredients(
                 name = "Carrot",
-                imageUrl = "$BASE_URL/meals/carrot.png",
+                imageUrl = "$BASE_URL/static/meals/carrot.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "3"
             ),
             Ingredients(
                 name = "Celery root",
-                imageUrl = "$BASE_URL/meals/celery_root.png",
+                imageUrl = "$BASE_URL/static/meals/celery_root.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Onion",
-                imageUrl = "$BASE_URL/meals/onion.png",
+                imageUrl = "$BASE_URL/static/meals/onion.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Allspice berry",
-                imageUrl = "$BASE_URL/meals/allspice_berry.png",
+                imageUrl = "$BASE_URL/static/meals/allspice_berry.png",
                 unit = IngredientUnit.PIECES,
                 quantity = "7"
             ),
             Ingredients(
                 name = "Bay leaf",
-                imageUrl = "$BASE_URL/meals/bay_leaf.png",
+                imageUrl = "$BASE_URL/static/meals/bay_leaf.png",
                 unit = IngredientUnit.GRAMS,
                 quantity = "5"
             ),
             Ingredients(
                 name = "Dried marjoram",
-                imageUrl = "$BASE_URL/meals/dried_marjoram.png",
+                imageUrl = "$BASE_URL/static/meals/dried_marjoram.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Salt",
-                imageUrl = "$BASE_URL/meals/salt.png",
+                imageUrl = "$BASE_URL/static/meals/salt.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Pepper",
-                imageUrl = "$BASE_URL/meals/ground_black_pepper.png",
+                imageUrl = "$BASE_URL/static/meals/ground_black_pepper.png",
                 unit = IngredientUnit.TEASPOONS,
                 quantity = "1"
             ),
             Ingredients(
                 name = "Oil",
-                imageUrl = "$BASE_URL/meals/neutral_oil.png",
+                imageUrl = "$BASE_URL/static/meals/neutral_oil.png",
                 unit = IngredientUnit.TABLESPOONS,
                 quantity = "2"
             ),
             Ingredients(
                 name = "Beer",
-                imageUrl = "$BASE_URL/meals/beer.png",
+                imageUrl = "$BASE_URL/static/meals/beer.png",
                 unit = IngredientUnit.CUPS,
                 quantity = "2"
             ),
@@ -1283,7 +1283,7 @@ val meals = listOf(
                 step = "Bake in the oven for about 1 hour.",
             ),
         ),
-        imageUrl = "$BASE_URL/meals/golonka_w_piwie.png",
+        imageUrl = "$BASE_URL/static/meals/golonka_w_piwie.png",
         prepTimeMinutes = 10,
         cookTimeMinutes = 360,
         difficulty = DifficultyLevel.MODERATE,
