@@ -1,0 +1,1 @@
+web: build/install/com.zaurh.polski_smak/bin/com.zaurh.polski_smak
